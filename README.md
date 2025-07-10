@@ -33,3 +33,4 @@ Install our Github App to auto propagate changes from your repo to your deployme
 - If the dev environment isn't running - Run `mint update` to ensure you have the most recent version of the CLI.
 - Page loads as a 404 - Make sure you are running in a folder with `docs.json`
 - You definitely can't run `git add . && git commit -m "Hello World" && git push` in VSC. You're gonna have to use `CMD`.
+    - In order for that command to work, you need to manually edit a file (like adding additional information to the `README.md`) and _then_ run the command.
