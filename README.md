@@ -10,17 +10,19 @@ Click on `Use this template` to copy the Mintlify starter kit. The starter kit c
 
 ### Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview the documentation changes locally. To install, use the following command
+Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview the documentation changes locally. To install, use the following command:
 
 ```
 npm i -g mint
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+Run the following command at the root of your documentation (where docs.json is):
 
 ```
 mint dev
 ```
+
+This previews your documentation in a browser tab.
 
 ### Publishing Changes
 
@@ -30,3 +32,4 @@ Install our Github App to auto propagate changes from your repo to your deployme
 
 - If the dev environment isn't running - Run `mint update` to ensure you have the most recent version of the CLI.
 - Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- You definitely can't run `git add . && git commit -m "Hello World" && git push` in VSC. You're gonna have to use `CMD`.
